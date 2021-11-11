@@ -1,0 +1,37 @@
+Bonjour! Je créé ce petit fichier pour tenir un résumé des modifications que j'effectue pour si besoin est.
+1) Téléchargement de tout ce qu'il y avais sur le serveur et suppression des originaux
+2) Modifications du fichier web.config pour prendre "index.php" comme page de base (j'ai touours l'original)
+3) Restructuration du site pour le rendre plus compréhensible: Renommage et organisation des fichiers dans des dossiers et liens entre les fichiers (en modifiant les paths dans les fichiers et en les mettant au bon endroit)
+4) Séparation du formulaire de connexion en plusieurs pour le relier plus facilement aux autres pages
+5) Séparation des variables importantes comme M. Laborie nous l'a appris (ça à été compliqué)
+6) Mise en place d'un système de layout (utiliser un head commun pour tout les HTMLs)
+7) Séparation du formulaire de nouveau client en plusieurs pour le relier plus facilement aux autres pages
+8) Réécriture de la page HTML nouveau client et des pages HTML et PHP client créé
+9) Création de l'index de la page ADMIN
+10) Création du code SQL3632 de la page ADMIN
+11) Création de la page SQL3632 de la page ADMIN
+12) Finition de la page d'acceuil
+13) Création de la page commande
+14) Réparation de la page commande
+15) Modification du fonctionnement de la page d'acceuil
+16) Création de la page mon compte
+17) Mise à jour de la redirection de traitement_db
+18) Ajout de la posibilité d'ajouter un article et de changer la famille (en entier) ou l'état (finir le travail de Sacha) d'un article dans gestion_db / traitement_db
+19) Changement du nom temporaire par le vrai nom
+20) FIN DE PROJET!!! (enfin plutôt fin probable de ma contribution à ce projet de la période de vacances parce qu'il reste les mentions légales, images et autres mais pour plus de détails voir MANQUE.txt)
+
+Phase de peaufinement:
+1) Mise en place d'un overflow hidden pour cacher le léger dépassement des mentions légales
+2) Mise en place d'un overflow-y scroll pour que la liste des articles ne gène pas l'emplacement des mentions légales ni la structure de la page de base
+3) Transformation des articles "paniers" de la base de donnée en article fixe redirigeant sur le site https://liv-raisonnature.com
+4) Mise à jour des images
+5) Changement de la couleur de base pour plus de lisibilité
+6) Mise en place de la circulation de l'information qu'est la commande dans tout le système de création de compte
+7) Test de la création d'un compte déjà existant. Conclusion: Le nouveau compte s'ajoute dans la base de données mais toute commande est passée au compte (haha) du compte avec l'id le plus bas et tout accès au compte accède aussi au compte qui as l'id le plus bas donc ça prends un peu de place mais na casse rien.
+
+Modifications faites que la base de données:
+1) clients.c_creance supprimé
+2) details.d_prix, details.d_cli et details.d_etat supprimés
+3) commandes.co_acompte et commandes.co_total supprimés
+4) articles.Famille renommé en articles.a_famille
+5) commandes.co_date_rdv de type datetime ajouté

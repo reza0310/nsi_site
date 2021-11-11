@@ -1,0 +1,11 @@
+fieldset {
+	background-color: #67BE4B;
+}
+div #back {
+	background-image:url('logo_jda.PNG');
+	background-repeat: no-repeat ;
+	background-position:center;
+	width: 160px;
+	height:70px;
+	
+}

@@ -1,0 +1,24 @@
+__En termes de pages, j'ai terminé:__
+-/
+-/mentions_legales
+-/connexion
+-/connexion/mdp_oublie
+-/connexion/mdp_oublie/etape_1
+-/connexion/mdp_oublie/etape_2
+-/connexion/mdp_oublie/etape_3
+-/connexion/nouveau_client
+-/connexion/commande
+-/ADMIN
+-/connexion/mon_compte
+
+__En outre, il manque:__
+-Mentions légales finales
+-Finalité des commandes (détermination de la date)
+-Mode LSD (JS)
+-Ressources (que je demanderais à M. Laborie quand j'aurais un peu plus avancé) (JS)
+-Esthétique (que Yann fera)
+
+__La page ADMIN devra être composé d'une page demandant un code pouvant rediriger vers:__
+-Un script permettant d'executer du SQL (fait)
+-Un script de gestion des articles (fait par Sacha & terminé par moi)
+-Un script de stats que je ne dois pas faire (pas fait)

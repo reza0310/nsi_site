@@ -1,0 +1,19 @@
+<center><fieldset style="width:400px;height:435px;">
+	<p>Commande passée avec succès! Passez la prendre au 31 Rue Alfred Leblanc, 91220 Brétigny-sur-Orge le %date%</p>
+	
+	<form action="https://novsite.jeannedarc-bretigny.fr/connexion/mon_compte/index.php" method="post">
+	%hidden%
+	<input type="submit" value="Mon compte">
+	</form> 
+	
+	<form action="https://novsite.jeannedarc-bretigny.fr/connexion/commande/pdf.php" method="post">
+	%hidden%
+	<input type="hidden" name="texte" value="Passez la prendre au 31 Rue Alfred Leblanc, 91220 Brétigny-sur-Orge le %date%">
+	<input type="submit" value="Télécharger au format PDF">
+	</form> 
+	
+	<form action="https://novsite.jeannedarc-bretigny.fr">
+	<input type="submit" value="Retour">
+	</form> 
+	
+</fieldset></center>
